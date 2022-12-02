@@ -1,0 +1,1 @@
+["EntryPrice", "entry_month", "entry_date", "entry_day", "entry_hour"]
