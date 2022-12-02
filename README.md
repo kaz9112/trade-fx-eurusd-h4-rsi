@@ -16,3 +16,13 @@ From the data, we then label which trade is a win or loss based on the 'pnl' fea
 Finally, we becktest again with RSI and the new model using the eurusd data from 2022. 
 
 By being precise on the winning, raising the percentage of winning, we also remove some of the win trades that have a lower probability. Using machine learning for classifying probability of winning or losing trades, with existing trading strategy will reduce the number of trades being made.
+
+## Trade Strategy
+
+Open position:
+
+if rsi is higher than 50 open Long position, if rsi lower than 50 open short position.
+
+Close position:
+
+if rsi is higher than upper bound(70) close Long position, if rsi lower than lower bound(30) close Short position.
